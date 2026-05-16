@@ -2,8 +2,10 @@
 
 This project is a solution for a front-end technical assessment focused on implementing an adaptive numeric input component based on a provided Figma design. It has been scaled into a full Single Page Application (SPA) using modern production-ready architectural practices.
 
-# Demo 
-[Demo] (https://front-task-react-delta.vercel.app/)
+# 🚀 Demo 
+
+You can check out the live preview of the application here:  
+[Live Demo Link](https://vercel.com/zxccjazzdude-9822s-projects/front-task-react)
 
 ![Figma Preview](./public/img.png)
 
