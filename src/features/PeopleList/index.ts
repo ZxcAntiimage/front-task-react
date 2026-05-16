@@ -1,0 +1,1 @@
+export { usePeopleList } from "./model/usePeopleList"

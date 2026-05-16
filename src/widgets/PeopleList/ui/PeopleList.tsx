@@ -1,14 +1,8 @@
 import { Link } from 'react-router-dom'
-import { useStore } from '@/store'
+import { usePeopleList } from '@/features/PeopleList'
 
 export default function PeopleList() {
-  const people = useStore((state) => state.people)
-
-  const peopleWithYears = people.map((person) => ({
-    ...person,
-    ageInYears: Math.floor(person.ageInHours / 8760),
-  }))
-
+   const { peopleWithYears } = usePeopleList() 
   return (
     <div className="flex flex-col gap-4">
       <h1 className="text-xl font-bold text-gray-700">People</h1>

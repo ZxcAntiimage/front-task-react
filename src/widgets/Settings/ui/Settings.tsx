@@ -1,10 +1,9 @@
+import { useStore } from '@/widgets/store'
 import { Link } from 'react-router-dom'
-import { useStore } from '@/store'
 
 export default function Settings() {
   const minimumAgeInMonths = useStore((state) => state.minimumAgeInMonths)
   const setMinimumAgeInMonths = useStore((state) => state.setMinimumAgeInMonths)
-
   return (
     <div className="flex flex-col gap-4">
       <Link to="/" className="text-violet-600 hover:underline text-sm">

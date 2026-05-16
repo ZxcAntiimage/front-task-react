@@ -1,17 +1,6 @@
+import { AppState } from '@/entities'
 import { create } from 'zustand'
 
-export interface Person {
-  id: number
-  name: string
-  ageInHours: number
-}
-
-interface AppState {
-  people: Person[]
-  minimumAgeInMonths: number
-  updatePersonAge: (id: number, ageInHours: number) => void
-  setMinimumAgeInMonths: (months: number) => void
-}
 
 export const useStore = create<AppState>((set) => ({
   people: [
