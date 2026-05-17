@@ -5,7 +5,7 @@ This project is a solution for a front-end technical assessment focused on imple
 # 🚀 Demo 
 
 You can check out the live preview of the application here:  
-[Live Demo Link](https://vercel.com/zxccjazzdude-9822s-projects/front-task-react)
+[Live Demo Link](https://front-task-react-delta.vercel.app/)
 
 ![Figma Preview](./public/img.png)
 
